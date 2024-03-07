@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sort Array</title>
+    <style>
+        body {
+            text-align: center; 
+        }
+        form {
+            display: inline-block; 
+        }
+    </style>
 </head>
 <body>
     <h1>Sort Array</h1>
@@ -29,7 +38,7 @@
             }
         }
         echo "<p>Sorted array:</p>";
-        echo "<ul>";
+        echo "<ul style='list-style-type: none; padding: 0;'>";
         foreach ($array as $value) {
             echo "<li>{$value}</li>";
         }
