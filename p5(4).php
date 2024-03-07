@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>Morse Code Encoder</title>
     <style>
-        input[type=text] {
+        body {
+            text-align: center; 
+        }
+        form {
+            display: inline-block; 
+        }
+        input[type=text], input[type=submit] {
             width: 200px;
             height: 30px;
             padding: 5px;
             font-size: 16px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            margin-top: 10px; 
+            display: block; 
         }
     </style>
 </head>
