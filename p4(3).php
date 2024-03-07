@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fibonacci Numbers</title>
+    <style>
+        body {
+            display: flex;
+            
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        form, p, ul {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Fibonacci Numbers</h1>
