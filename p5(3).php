@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matrix Multiplication</title>
+    <style> 
+         body {
+            text-align: center; 
+        }
+        form {
+            display: inline-block;
+        }
+        table {
+            margin: auto;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Matrix Multiplication</h1>
     <form action="" method="post">
@@ -38,7 +51,7 @@
             $matrix1_array[$i] = $row;
         }
 
-        for ($i = 0; $i < $matrix2_cols; $i++) { // Changed $matrix2_rows to $matrix2_cols
+        for ($i = 0; $i < $matrix2_cols; $i++) { 
             $row = explode(" ", trim($matrix2_elements[$i]));
             if (count($row) != $matrix2_cols) {
                 echo "<p>Invalid matrix 2 format.</p>";
